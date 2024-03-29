@@ -3,9 +3,9 @@ import { React } from 'react';
 export default function Header(props) {
     return (
         <div id='header_div'>
-            <div className='row align-items-start my-2'>
+            <div className='row align-items-start my-3'>
                 <div className='col'>
-                    <img className='nav_img' src='../img/CD_Logo_Horizontal.png' />
+                    <a href='/'><img className='nav_img' src='../img/CD_Logo_Horizontal.png' /></a>
                 </div>
                 <div className='col'>
                     <div className='d-flex justify-content-around nav_bar'>
