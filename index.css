@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow-x: hidden;
+  font-family: "Goudy Bookletter 1911";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(21, 21, 21);
+  letter-spacing: 2px;
+  line-height: 1.75em;
+  word-spacing: 3px;
+  font-size: 1em;
+}
+
+code {
+  font-family: 'source-code-pro, Menlo, Monaco, Consolas, 'Courier New'',
+    monospace;
+}
+
+#body_paragraphs {
+  margin: auto;
+}
+
+#body_div {
+  background-color: rgb(173, 129, 86);
+  padding: 0.1em 0 0.1em 0;
+}
+
+.big_text {
+  font-size: 1.5em;
+}
+
+.inner-footer {
+  width: 80%;
+  margin-left: 12em;
+}
+
+.button_div {
+  flex: 1;
+  padding-top: 2em;
+}
+
+.button_h4 {
+  width: 50%;
+  margin: auto;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  border: solid 2px rgb(225, 213, 186);
+  padding: 0.35em;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+#body_gallery {
+  margin-top: 7em;
+}
+
+.trans_logo_div {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  margin-top: 22%;
+}
+
+.body_text {
+  width: 50%;
+  margin: 3em auto 2em auto;
+  font-size: 1.2em;
+  color: rgb(225, 213, 186);
+}
+
+.trans_logo {
+  width: 18%;
+}
+
+.font-color-1 {
+  color: rgb(225, 213, 186);
+}
+
+.font-color-2 {
+  color: rgb(173, 129, 86);
+}
+
+.newsletter_text {
+  margin-right: -3em;
+}
+
+.newsletter_input {
+  height: 2.1em;
+}
+
+.newsletter_button {
+  height: 100%;
+}
+
+.main_h1 {
+  color: rgb(173, 129, 86);
+    text-align: center;
+    font-family: "madlove2regular";
+    font-weight: 300;
+    font-size: 4em;
+}
+
+#header_div {
+  background-color: rgb(21, 21, 21);
+}
+
+.nonchalant {
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav_img {
+  width: 66%;
+  margin: 0 0 0 -11em;
+}
+
+.nav_item {
+  font-size: 1.2em;
+  margin-top: 10%;
+}
+
+.nav_bar {
+  margin: auto;
+  margin-right: 0;
+  margin-bottom: 0.2em;
+  width: 85%;
+  height: 100%;
+  font-size: 0.9em;
+}
+
+.nav_text {
+  margin: auto;
+  padding: 0.6em 0 0.6em 0;
+}
+
+.address_bar {
+  padding: 0em 0 0.25em 0;
+  background-color: rgb(173, 129, 86);
+}
+
+#main_text {
+  width: 70%;
+  margin: auto;
+  padding: 2em;
+}
+
+.smaller_text {
+  font-size: 1.2em;
+}
+
+#prologue_text {
+  width: 24%;
+}
