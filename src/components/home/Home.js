@@ -5,6 +5,7 @@ import Prologue from './Prologue';
 import Body from './Body';
 
 export default function Home(props) {
+
     return (
         <div id='home_div' className=''>
           
