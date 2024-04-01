@@ -14,9 +14,11 @@ export default function Header(props) {
                             <img width='50%' height='50%' className='m-auto dropdown-toggle' data-bs-toggle="dropdown" aria-expanded="false" src='../img/mobile_menu_icon.png' />
 
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href='/menu'>Menu</a></li>
+                                <li><a className="dropdown-item" href='/videos'>Videos</a></li>
+                                <li><a className="dropdown-item" href='/gallery'>Gallery</a></li>
+                                <li><a className="dropdown-item" href='/contact'>Contact</a></li>
+                                <li><a className="dropdown-item" href='https://app.upserve.com/s/cloak-and-dagger-cocktail-lounge-lakewood'>Takeout</a></li>
                             </ul>
                         </div>
 
@@ -44,7 +46,7 @@ export default function Header(props) {
                         <a className='px-2 nav_item nonchalant font-color-1' href='/videos'>VIDEOS</a>
                         <a className='px-2 nav_item nonchalant font-color-1' href='/gallery'>GALLERY</a>
                         <a className='px-2 nav_item nonchalant font-color-1' href='/contact'>CONTACT</a>
-                        <a className='px-2 nav_item nonchalant font-color-1' href='/takeout'>TAKEOUT</a>
+                        <a className='px-2 nav_item nonchalant font-color-1' target='_blank' href='https://app.upserve.com/s/cloak-and-dagger-cocktail-lounge-lakewood'>TAKEOUT</a>
                     </div>
                 </div>
             </div>
