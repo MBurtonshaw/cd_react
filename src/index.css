@@ -16,7 +16,7 @@ body {
 }
 
 code {
-  font-family: 'source-code-pro, Menlo, Monaco, Consolas, 'Courier New'',
+  font-family: 'source-code-pro, Menlo, Monaco, Consolas, ' Courier New'',
     monospace;
 }
 
@@ -96,10 +96,10 @@ code {
 
 .main_h1 {
   color: rgb(173, 129, 86);
-    text-align: center;
-    font-family: "madlove2regular";
-    font-weight: 300;
-    font-size: 4em;
+  text-align: center;
+  font-family: "madlove2regular";
+  font-weight: 300;
+  font-size: 4em;
 }
 
 .color_div {
@@ -116,6 +116,7 @@ code {
   height: auto;
   margin: auto;
 }
+
 #img_container {
   height: auto;
   width: 100%;
@@ -123,6 +124,7 @@ code {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
 .gallery_pics {
   height: 250px;
 }
@@ -180,15 +182,46 @@ code {
 }
 
 .prologue_text_1 {
-  width: 30%;
+  width: 20%;
 }
 
 .prologue_text_2 {
-  width: 45%;
+  width: 25%;
 }
 
 .prologue_text_3 {
+  width: 30%;
+}
+
+.prologue_text_4 {
+  width: 37%;
+}
+
+.prologue_text_5 {
   width: 60%;
+}
+
+.socials_1 {
+  width: 45%;
+  padding: 1;
+}
+
+.socials_2 {
+  width: 50%;
+  padding: 1;
+}
+
+.socials_3 {
+  width: 40%;
+  padding: 1;
+}
+
+.socials_4 {
+  width: 40%;
+}
+
+.socials_5 {
+  width: 55%;
 }
 
 
@@ -218,26 +251,18 @@ code {
   padding-left: 1em;
 }
 
-#seven_facebook {
-  flex: 1;
-  padding: 1em 1em 1em 1em;
-  width: 50%;
-}
+#seven_facebook {}
 
 #seven_facebook_a {
-  width: 60%;
   margin: auto;
+  width: 100%;
 }
 
-#seven_instagram {
-  flex: 1;
-  padding: 1em 1em 1em 1em;
-  width: 50%;
-}
+#seven_instagram {}
 
 #seven_instagram_a {
-  width: 60%;
   margin: auto;
+  width: 100%;
 }
 
 .klaviyo-form-RBSHP6 {
@@ -247,58 +272,64 @@ code {
   background-color: rgb(22, 22, 22);
   padding-top: 1.7em;
 }
+
 @media all and (max-width: 900px) {
   #seven {
-      margin-top: 1em;
-      display: flex;
-      flex-direction: column;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
   }
+
   #seven_socials_div {
-      flex: 2;
-      width: 50%;
-      margin: auto;
-      text-align: center;
-      display: flex;
-      padding-left: 0;
+    flex: 2;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding-left: 0;
   }
+
   #seven_facebook_a {
-      width: 60%;
-      margin: auto;
+    width: 100%;
+    margin: auto;
   }
+
   #seven_instagram_a {
-      width: 60%;
-      margin: auto;
+    width: 100%;
+    margin: auto;
   }
+
   #seven_facebook {
-      flex: 1;
-      width: 65%;
-      margin: auto;
+    flex: 1;
+    margin: auto;
   }
+
   #seven_instagram {
-      flex: 1;
-      width: 65%;
-      margin: auto;
+    flex: 1;
+    margin: auto;
   }
+
   #seven_text {
-      width: auto;
-      letter-spacing: 1px;
-      font-size: 1.1em;
-      margin: auto;
-      text-align: center;
-      flex: 1;
-      padding-top: 0.5em;
+    width: auto;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin: auto;
+    text-align: center;
+    flex: 1;
+    padding-top: 0.5em;
   }
+
   .klaviyo-form-RBSHP6 {
-      width: 100%;
-      margin: auto;
-      text-align: center;
-      flex: 1;
-      padding-top: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    flex: 1;
+    padding-top: 0;
   }
 }
+
 /*
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
-
