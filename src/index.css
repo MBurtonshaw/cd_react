@@ -20,8 +20,11 @@ code {
     monospace;
 }
 
+
+
 #body_paragraphs {
   margin: auto;
+  
 }
 
 #body_div {
@@ -58,10 +61,32 @@ code {
   margin-top: 7em;
 }
 
+.menu_page {
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+}
+
+.menu_page_mobile {
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+}
+
+.menu_page_bookend {
+  height: 50%;
+  margin: auto;
+  padding: 1em;
+}
+
+.contact_h1 {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+
 #contact_div {
   background-color: rgb(173, 129, 86);
   padding: 2em;
-  width: 50%;
   margin: auto;
 }
 
@@ -77,6 +102,13 @@ code {
 .body_text {
   width: 50%;
   margin: 3em auto 2em auto;
+  font-size: 1.2em;
+  color: rgb(225, 213, 186);
+}
+
+.body_text_small {
+  width: 75%;
+  margin: 2em auto 1em auto;
   font-size: 1.2em;
   color: rgb(225, 213, 186);
 }
@@ -173,6 +205,11 @@ code {
 
 #main_text {
   width: 70%;
+  margin: auto;
+  padding: 2em;
+}
+
+#main_text_small {
   margin: auto;
   padding: 2em;
 }
