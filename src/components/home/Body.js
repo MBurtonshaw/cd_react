@@ -1,6 +1,47 @@
 import { React } from 'react';
 
 export default function Body(props) {
+    if (window.innerWidth < 992) {
+        return (
+            <div id='body_div' className='w-100'>
+                
+                
+                
+                <div className=''>
+                <a href='/menu' className=''>
+                        <img width='100%' src='../img/MenuImage_1.png' />
+                    </a>
+                    <div id='body_paragraphs' className='my-5'>
+                        <img width='265' height='auto' src='../img/eat_drink.png' />
+                        <p className='body_text_small'>A journey through the Tales of Life & Death; our debut menu.</p>
+                        <div className='w-100 mt-4'>
+                            <div className='button_div'>
+                                <a className='nonchalant black_link' href='/menu'><h4 className='button_h4'>VIEW MENU BOOK</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+
+                <div className=''>
+                    <a width='auto' href='/gallery'>
+                        <img width='100%' src='../img/GalleryImage_1.png' />
+                    </a>
+                    <div id='body_paragraphs' className='my-5'>
+                        <img width='300' src='../img/gallery.png' />
+                        <p className='body_text_small'>A look inside Cloak & Dagger. All videos and photos captured by Josh Dobay.</p>
+                        <div className='w-100'>
+                            <div className='button_div'>
+                                <a className='nonchalant black_link' href='/gallery'><h4 className='button_h4'>VIEW GALLERY</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
     return (
         <div id='body_div' className='w-100'>
             <div className='row my-4'>
